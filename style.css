@@ -1,0 +1,35 @@
+body {
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+.logo,
+.product,
+.contact {
+  margin: 5px;
+  padding: 5px;
+}
+.logo {
+  background-color: cornflowerblue;
+}
+
+.product {
+  background-color: crimson;
+}
+
+.sattiva,
+.hybrid,
+.indica {
+  background-color: blueviolet;
+  margin: 5px;
+}
+
+.contact {
+  background-color: olive;
+}
