@@ -21,10 +21,16 @@ body {
 
 .product {
   background-color: crimson;
+  display: flex;
+  flex-direction: row;
 }
 
-.sattiva,
-.hybrid,
+.sativa {
+  background-color: springgreen;
+}
+.hybrid {
+  background-color: cadetblue;
+}
 .indica {
   background-color: blueviolet;
   margin: 5px;
