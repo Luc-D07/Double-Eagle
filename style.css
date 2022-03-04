@@ -45,7 +45,7 @@ body {
 }
 
 .info {
-  background-color: olive;
+  background-color: black;
   display: flex;
   justify-content: space-between;
 }
@@ -60,6 +60,11 @@ body {
 .cellnum,
 .emailadd {
   font-size: 15px;
+  color: #d5ad6d;
+}
+
+.call {
+  color: #d5ad6d;
 }
 
 .qrcode {
