@@ -18,10 +18,12 @@ body {
 .logo {
   background-color: black;
   padding: 10px;
+  border-bottom: #d5ad6d solid 7px;
 }
 
 .product {
   background-color: black;
+  border-bottom: #d5ad6d solid 7px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -72,4 +74,6 @@ body {
   width: 100px;
   height: 100px;
   border: black 10px solid;
+  display: flex;
+  justify-content: center;
 }
