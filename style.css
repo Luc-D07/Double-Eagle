@@ -32,7 +32,7 @@ body {
 
 .product {
   background-color: black;
-  border-bottom: #d5ad6d solid 7px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -55,11 +55,29 @@ body {
   padding-bottom: 10px;
 }
 
+.disclaimer {
+  background-color: black;
+  color: white;
+}
+li {
+  list-style: none;
+}
 .info {
   background-color: black;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
+  border-top: #d5ad6d solid 7px;
 }
+
+.location {
+  color: white;
+  margin: 10px;
+}
+/* .locale {
+  position: absolute;
+} */
 
 .contact {
   margin: 10px;
