@@ -1,26 +1,19 @@
 body {
-  background-color: antiquewhite;
+  background-color: black;
   margin: 0;
   padding: 0;
 }
 
 .main {
-  background-color: antiquewhite;
+  background-color: black;
   display: flex;
   flex-direction: column;
 }
-/* .logo,
-.product,
-.contact {
-  margin: 5px;
-  padding: 5px;
-} */
+
 .logo {
-  background-color: black;
   padding: 10px;
   border-bottom: #d5ad6d solid 7px;
   display: flex;
-  /* justify-items: center; */
   align-items: center;
   justify-content: center;
 }
@@ -30,23 +23,18 @@ body {
   width: 400px;
 }
 
-.product {
-  background-color: black;
+.description {
+  color: white;
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
+}
 
+.product {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
-/* .sativa {
-  background-color: springgreen;
-}
-.hybrid {
-  background-color: cadetblue;
-}
-.indica {
-  background-color: blueviolet;
-} */
 
 .ind,
 .hyb,
@@ -56,18 +44,16 @@ body {
 }
 
 .disclaimer {
-  background-color: black;
   color: white;
+  font-size: 12px;
 }
 li {
   list-style: none;
 }
 .info {
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   border-top: #d5ad6d solid 7px;
 }
 
@@ -75,9 +61,6 @@ li {
   color: white;
   margin: 10px;
 }
-/* .locale {
-  position: absolute;
-} */
 
 .contact {
   margin: 10px;
@@ -107,4 +90,64 @@ li {
 
 a {
   color: goldenrod;
+}
+
+/* Modal Windows */
+.show-modal {
+  /* font-size: 2rem; */
+  /* font-weight: 600; */
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.test_page {
+  height: 350px;
+  width: 325px;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
 }
